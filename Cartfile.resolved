@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "3.5.0"
+github "Hearst-DD/ObjectMapper" "1.5.0"
+github "jivesoftware/PDTSimpleCalendar" "0.9.1"
+github "SwiftyJSON/SwiftyJSON" "2.3.3"

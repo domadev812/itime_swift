@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode6.4
+script:
+    - pod lib lint --verbose --fail-fast
+    - xctool -workspace PDTSimpleCalendar.xcworkspace -scheme PDTSimpleCalendar -sdk iphonesimulator ACTIVE_ARCH_ONLY=0 build test
